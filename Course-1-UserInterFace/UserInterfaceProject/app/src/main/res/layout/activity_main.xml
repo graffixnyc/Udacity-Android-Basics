@@ -104,8 +104,9 @@ New York, NY 10002"
                 android:layout_alignBottom="@+id/imageView"
                 android:layout_centerHorizontal="true"
                 android:autoLink="phone"
+        android:textAppearance="@android:style/TextAppearance.Medium"
                 android:text="Paul's Boutique is no longer in business. It was based in the Lower East Side on Manhattan. It was made famous by the Beastie Boys who used a photo of it for their album Paul's Boutique"
-                android:textSize="16sp"/>
+                />
         </LinearLayout>
 
 
