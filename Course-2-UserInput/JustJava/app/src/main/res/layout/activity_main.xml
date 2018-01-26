@@ -41,6 +41,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="24dp"
             android:text="Whipped Cream"
+            android:onClick="addToppings"
             android:textSize="16sp" />
         <CheckBox
             android:id="@+id/chkChocolate"
@@ -48,6 +49,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="24dp"
             android:text="Chocolate"
+            android:onClick="addToppings"
             android:textSize="16sp" />
 
         <TextView

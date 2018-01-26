@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void displayQuantity(int numberOfCoffees){
         quantityTextView.setText("" + numberOfCoffees);
+        orderSummaryTextView.setText("$" + calculatePrice());
     }
     private void displayMessage(String message) {
         orderSummaryTextView.setText(message);
@@ -55,6 +56,9 @@ public class MainActivity extends AppCompatActivity {
             quantity++;
         }
         displayQuantity(quantity);
+    }
+    public void addToppings(View view){
+        orderSummaryTextView.setText("$" + calculatePrice());
     }
     public void decrement(View view){
         if (quantity==0){
